@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Github issue viewer</string>
+    <string name="input_url">enter your ithub repo url</string>
+</resources>
