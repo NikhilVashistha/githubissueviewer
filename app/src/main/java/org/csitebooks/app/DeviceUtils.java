@@ -8,7 +8,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
 /**
- * Created by abc on 02-12-2015.
+ * Created by Nikhil Vashistha on 02-12-2015 for Github issue viewer.
  */
 public class DeviceUtils {
 
@@ -37,10 +37,8 @@ public class DeviceUtils {
         ConnectivityManager connectivityManager = (ConnectivityManager) context
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
 
-        boolean result = (connectivityManager.getActiveNetworkInfo() != null && connectivityManager
+        return (connectivityManager.getActiveNetworkInfo() != null && connectivityManager
                 .getActiveNetworkInfo().isConnected());
-
-        return result;
     }
 
 
@@ -49,7 +47,7 @@ public class DeviceUtils {
      *
      * @param activity context and String message to show
      */
-    public static void showToast(Activity activity,String message) {
+    public static void showToast(Activity activity, String message) {
 
         Toast.makeText(activity, message, Toast.LENGTH_LONG).show();
 

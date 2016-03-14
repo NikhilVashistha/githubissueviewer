@@ -2,13 +2,11 @@ package org.csitebooks.retrofit;
 
 import com.squareup.okhttp.OkHttpClient;
 
-
 import retrofit.RestAdapter;
-
 import retrofit.client.OkClient;
 
 /**
- * Created by abc on 02-12-2015.
+ * Created by Nikhil Vashistha on 02-12-2015 for Github issue viewer.
  */
 public class ServiceGenerator {
 

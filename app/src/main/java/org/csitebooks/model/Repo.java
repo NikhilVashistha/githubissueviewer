@@ -4,7 +4,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by abc on 01-12-2015.
+ * Created by Nikhil Vashistha on 01-12-2015 for Github issue viewer.
  */
 public class Repo {
 
@@ -17,13 +17,11 @@ public class Repo {
 
     /**
      * No args constructor for use in serialization
-     *
      */
     public Repo() {
     }
 
     /**
-     *
      * @param title
      * @param updatedAt
      */
@@ -33,36 +31,28 @@ public class Repo {
     }
 
     /**
-     *
-     * @return
-     * The title
+     * @return The title
      */
     public String getTitle() {
         return title;
     }
 
     /**
-     *
-     * @param title
-     * The title
+     * @param title The title
      */
     public void setTitle(String title) {
         this.title = title;
     }
 
     /**
-     *
-     * @return
-     * The updatedAt
+     * @return The updatedAt
      */
     public String getUpdatedAt() {
         return updatedAt;
     }
 
     /**
-     *
-     * @param updatedAt
-     * The updated_at
+     * @param updatedAt The updated_at
      */
     public void setCreatedAt(String updatedAt) {
         this.updatedAt = updatedAt;
